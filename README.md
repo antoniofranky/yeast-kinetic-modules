@@ -87,12 +87,8 @@ Run each script from the **repository root** (the `here` package uses the `.git`
 
 ```r
 Rscript scripts/figures/fig01_phylogeny_concordance.R   # Figure 1
-Rscript scripts/figures/fig02_phenotype_correlations.R  # Figure 2 + PGLS data for Table S6
-Rscript scripts/figures/fig03_concordance_heatmap.R     # Figure 3
-Rscript scripts/figures/fig04_pathway_enrichment.R      # Figure 4
-Rscript scripts/figures/fig05_enzyme_mechanism.R        # Figure 5
-Rscript scripts/figures/figS2_pathway_enrichment_full.R # Figure S2
-python  scripts/figures/figS1_performance_scaling.py    # Figure S1
+Rscript scripts/figures/fig02_phenotype_correlations.R  # Figure 2 + PGLS data for Table S4
+Rscript scripts/figures/fig03_pathway_enrichment.R      # Figure 3
 ```
 
 Outputs are written to `figures/`.
@@ -103,10 +99,10 @@ Outputs are written to `figures/`.
 Rscript scripts/tables/tableS2_setup_data_prep.R
 Rscript scripts/tables/tableS2_model_selection.R        # Table S2
 Rscript scripts/tables/tableS5_acr_metabolites.R        # Table S5 (requires Saccharomyces_cerevisiae.xml)
-python  scripts/tables/tableS6_pgls_correlations.py     # Table S6
+python  scripts/tables/tableS6_pgls_correlations.py     # Table S4 (PGLS)
 ```
 
-Table S6 requires that `fig02_phenotype_correlations.R` has been run first (it writes the PGLS CSV files to `results/pgls/`).
+`fig02_phenotype_correlations.R` must be run before `tableS6_pgls_correlations.py` (it writes the PGLS CSV files to `results/pgls/`).
 
 ---
 
