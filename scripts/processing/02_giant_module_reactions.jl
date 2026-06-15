@@ -283,6 +283,10 @@ function main()
         merge!(all_reaction_to_original, r.reaction_to_original)
 
         n_original = length(unique(values(r.reaction_to_original)))
+        # NOTE: giant_proportion here is complex-based (giant_module_size / n_total_complexes).
+        # The manuscript reports the reaction-based proportion (n_giant_reactions / n_total_split_reactions,
+        # ~23-28%). After running 01_kinetic_summary.jl, join with split_model_sizes.csv.gz
+        # to replace this column before using it in downstream analyses.
         push!(summary_rows, (
             species_id=r.species_id,
             n_giant_reactions=length(r.giant_reactions),

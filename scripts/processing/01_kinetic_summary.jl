@@ -145,14 +145,18 @@ function load_kinetic_result(filepath::String)
     n_total_complexes = get(stats, "n_total_complexes", 0)
     n_kinetic_modules = get(stats, "n_kinetic_modules", length(kinetic_modules))
 
-    # Proportion of complexes in giant module
+    # Proportion of elementary reaction steps with substrate complex in the giant module
+    # (= n_giant_reactions / n_total_split_reactions, computed by joining with
+    # giant_module_reaction_summary.csv.gz and split_model_sizes.csv.gz).
+    # The value stored here is complex-based (giant_module_size / n_total_complexes)
+    # and is overwritten by fix_giant_proportion.py before committing to the repo.
     proportion = n_total_complexes > 0 ? largest_module_size / n_total_complexes : 0.0
 
     return (
         species_id = species_id,
         n_acr = n_acr,
         n_acrr = n_acrr,
-        n_acr_raw = n_acr_raw,  # Include raw count for comparison
+        n_acr_raw = n_acr_raw,
         largest_module_size = largest_module_size,
         n_total_complexes = n_total_complexes,
         n_kinetic_modules = n_kinetic_modules,
