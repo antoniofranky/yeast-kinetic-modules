@@ -1,0 +1,25 @@
+comparison,dataset,n,p_formatted,sig,r_formatted,r2_formatted,lambda_formatted,slope
+ln(Giant module reactions) ~ Substrate usage,Full,316,3.32e-01,,-0.05470,2.99e-03,1.00,-0.0019442169256640354
+ln(Giant module reactions) ~ Substrate usage,Clean,312,9.41e-01,,-0.00424,1.80e-05,0.93,-4.1366707102943184e-5
+ln(ACR metabolites) ~ Substrate usage,Full,316,9.96e-01,, 0.00026,6.57e-08,0.86,2.2295621380783934e-5
+ln(ACR metabolites) ~ Substrate usage,Clean,312,6.70e-01,, 0.02418,5.85e-04,0.66,0.0017179994300554526
+Giant module proportion ~ Substrate usage,Full,316,3.20e-01,,-0.05615,3.15e-03,1.00,-1.0319114733854898e-4
+Giant module proportion ~ Substrate usage,Clean,312,7.66e-01,,-0.01691,2.86e-04,0.51,-1.2226224640790291e-5
+ACR proportion ~ Substrate usage,Full,316,9.41e-01,,-0.00421,1.78e-05,0.82,-3.685195680954333e-7
+ACR proportion ~ Substrate usage,Clean,312,8.86e-01,, 0.00815,6.64e-05,0.74,6.42933919339607e-7
+ln(Total reactions) ~ Substrate usage,Full,316,7.16e-01,, 0.02055,4.22e-04,0.94,1.9257900223880464e-4
+ln(Total reactions) ~ Substrate usage,Clean,312,6.51e-01,, 0.02570,6.60e-04,0.93,2.3207271811532745e-4
+Biomass yield ~ ln(Giant module reactions),Full,316,4.23e-01,,-0.04524,2.05e-03,0.58,-2.646554837121909e-4
+Biomass yield ~ ln(Giant module reactions),Clean,312,5.27e-04,***, 0.19515,3.81e-02,0.51,0.006560538018545392
+Biomass yield ~ ln(ACR metabolites),Full,316,7.50e-01,, 0.01803,3.25e-04,0.59,7.798950149268125e-5
+Biomass yield ~ ln(ACR metabolites),Clean,312,1.53e-01,, 0.08105,6.57e-03,0.57,4.353851918292538e-4
+Biomass yield ~ Giant module proportion,Full,316,9.15e-02,.,-0.09509,9.04e-03,0.58,-0.011183239797212752
+Biomass yield ~ Giant module proportion,Clean,312,1.50e-01,,-0.08161,6.66e-03,0.59,-0.042486201824356584
+Biomass yield ~ ACR proportion,Full,316,3.94e-01,,-0.04807,2.31e-03,0.58,-0.2076755583136407
+Biomass yield ~ ACR proportion,Clean,312,8.01e-01,,-0.01431,2.05e-04,0.58,-0.06918043010941943
+Biomass yield ~ ln(Total reactions),Full,316,5.30e-05,***, 0.22534,5.08e-02,0.52,0.007817089337421201
+Biomass yield ~ ln(Total reactions),Clean,312,4.85e-05,***, 0.22789,5.19e-02,0.52,0.00817235418727602
+Biomass yield ~ ln(Non-giant module reactions),Full,316,1.91e-05,***, 0.23796,5.66e-02,0.52,0.007573806750295287
+Biomass yield ~ ln(Non-giant module reactions),Clean,312,2.57e-05,***, 0.23584,5.56e-02,0.52,0.008514600084853718
+ln(Non-giant module reactions) ~ Substrate usage,Full,316,6.00e-01,, 0.02963,8.78e-04,0.95,2.9202545019864877e-4
+ln(Non-giant module reactions) ~ Substrate usage,Clean,312,5.03e-01,, 0.03803,1.45e-03,0.93,3.4334210191562693e-4

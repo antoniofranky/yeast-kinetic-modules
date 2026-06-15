@@ -1,0 +1,33 @@
+# Large data — download from Zenodo
+data/jld2/
+data/prpd_models/
+data/Saccharomyces_cerevisiae.xml
+
+# Generated outputs
+figures/*.pdf
+figures/*.svg
+figures/*.png
+figures/supplementary/
+supplementary/Table_S6.xlsx
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Julia
+*.jl.cov
+*.jl.mem
+Manifest.toml
+
+# OS
+.DS_Store
+Thumbs.db
+~$*

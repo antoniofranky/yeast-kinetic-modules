@@ -1,0 +1,130 @@
+metabolite_id,name,formula,compartment,prevalence,conservation_class,metabolite_type,pathway
+M_s_0025__91__c__93__,(R)-lactate [cytoplasm],C3H5O3,c,0.987460815047022,Core (≥90%),NA,NA
+M_s_0179__91__m__93__,2-oxobutanoate [mitochondrion],C4H5O3,m,0.987460815047022,Core (≥90%),NA,NA
+M_s_1401__91__m__93__,pyruvate [mitochondrion],C3H3O3,m,0.987460815047022,Core (≥90%),NA,NA
+M_s_0794__91__c__93__,H+ [cytoplasm],H,c,0.9498432601880876,Core (≥90%),NA,NA
+M_s_0795__91__er__93__,H+ [endoplasmic reticulum],H,er,0.9498432601880876,Core (≥90%),NA,NA
+M_s_0802__91__v__93__,H+ [vacuole],H,v,0.9498432601880876,Core (≥90%),NA,NA
+M_s_3044__91__lp__93__,"triglyceride (1-16:0, 2-16:1, 3-16:0) [lipid particle]",C51H96O6,lp,0.9498432601880876,Core (≥90%),NA,NA
+M_s_3046__91__lp__93__,"triglyceride (1-16:0, 2-18:1, 3-16:0) [lipid particle]",C53H100O6,lp,0.9498432601880876,Core (≥90%),NA,NA
+M_s_3050__91__lp__93__,"triglyceride (1-16:1, 2-18:1, 3-16:0) [lipid particle]",C53H98O6,lp,0.9498432601880876,Core (≥90%),NA,NA
+M_s_3052__91__lp__93__,"triglyceride (1-18:0, 2-16:1, 3-16:0) [lipid particle]",C53H100O6,lp,0.9498432601880876,Core (≥90%),NA,NA
+M_s_3054__91__lp__93__,"triglyceride (1-18:0, 2-18:1, 3-16:0) [lipid particle]",C55H104O6,lp,0.9498432601880876,Core (≥90%),NA,NA
+M_s_3059__91__lp__93__,"triglyceride (1-16:0, 2-16:1, 3-16:1) [lipid particle]",C51H94O6,lp,0.9498432601880876,Core (≥90%),NA,NA
+M_s_3061__91__lp__93__,"triglyceride (1-16:1, 2-16:1, 3-16:1) [lipid particle]",C51H92O6,lp,0.9498432601880876,Core (≥90%),NA,NA
+M_s_3064__91__lp__93__,"triglyceride (1-18:0, 2-18:1, 3-16:1) [lipid particle]",C55H102O6,lp,0.9498432601880876,Core (≥90%),NA,NA
+M_s_3066__91__lp__93__,"triglyceride (1-18:1, 2-18:1, 3-16:1) [lipid particle]",C55H100O6,lp,0.9498432601880876,Core (≥90%),NA,NA
+M_s_3067__91__lp__93__,"triglyceride (1-16:0, 2-16:1, 3-18:0) [lipid particle]",C53H100O6,lp,0.9498432601880876,Core (≥90%),NA,NA
+M_s_3077__91__lp__93__,"triglyceride (1-16:1, 2-16:1, 3-18:1) [lipid particle]",C53H96O6,lp,0.9498432601880876,Core (≥90%),NA,NA
+M_s_3081__91__lp__93__,"triglyceride (1-18:1, 2-16:1, 3-18:1) [lipid particle]",C55H100O6,lp,0.9498432601880876,Core (≥90%),NA,NA
+M_s_3082__91__lp__93__,"triglyceride (1-18:1, 2-18:1, 3-18:1) [lipid particle]",C57H104O6,lp,0.9498432601880876,Core (≥90%),NA,NA
+M_s_3181__91__erm__93__,"phosphatidylethanolamine (1-16:0, 2-16:1) [endoplasmic reticulum membrane]",C37H72NO8P,erm,0.9498432601880876,Core (≥90%),NA,NA
+M_s_3187__91__erm__93__,"phosphatidylethanolamine (1-18:0, 2-16:1) [endoplasmic reticulum membrane]",C39H76NO8P,erm,0.9498432601880876,Core (≥90%),NA,NA
+M_s_3330__91__ce__93__,"1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1) [cell envelope]",C43H79O13P,ce,0.9498432601880876,Core (≥90%),NA,NA
+M_s_3338__91__ce__93__,"1-phosphatidyl-1D-myo-inositol (1-18:1, 2-18:1) [cell envelope]",C45H83O13P,ce,0.9498432601880876,Core (≥90%),NA,NA
+M_s_3185__91__erm__93__,"phosphatidylethanolamine (1-16:1, 2-16:1) [endoplasmic reticulum membrane]",C37H70NO8P,erm,0.9467084639498432,Core (≥90%),NA,NA
+M_s_3193__91__erm__93__,"phosphatidylethanolamine (1-16:1, 2-18:1) [endoplasmic reticulum membrane]",C39H74NO8P,erm,0.9467084639498432,Core (≥90%),NA,NA
+M_s_3195__91__erm__93__,"phosphatidylethanolamine (1-18:0, 2-18:1) [endoplasmic reticulum membrane]",C41H80NO8P,erm,0.9467084639498432,Core (≥90%),NA,NA
+M_s_3658__91__lp__93__,ergosteryl oleate [lipid particle],C46H76O2,lp,0.9435736677115988,Core (≥90%),NA,NA
+M_s_3686__91__lp__93__,"phosphatidylethanolamine (1-16:0, 2-18:1) [lipid particle]",C39H76NO8P,lp,0.9341692789968652,Core (≥90%),NA,NA
+M_s_3688__91__lp__93__,"phosphatidylethanolamine (1-16:1, 2-18:1) [lipid particle]",C39H74NO8P,lp,0.9341692789968652,Core (≥90%),NA,NA
+M_s_3690__91__lp__93__,"phosphatidylethanolamine (1-18:0, 2-18:1) [lipid particle]",C41H80NO8P,lp,0.9341692789968652,Core (≥90%),NA,NA
+M_s_3692__91__lp__93__,"phosphatidylethanolamine (1-18:1, 2-18:1) [lipid particle]",C41H78NO8P,lp,0.9341692789968652,Core (≥90%),NA,NA
+M_s_3697__91__lp__93__,"phosphatidylcholine (1-18:0, 2-16:1) [lipid particle]",C42H82NO7P,lp,0.9341692789968652,Core (≥90%),NA,NA
+M_s_3701__91__lp__93__,"phosphatidylcholine (1-16:0, 2-18:1) [lipid particle]",C42H82NO8P,lp,0.9341692789968652,Core (≥90%),NA,NA
+M_s_3702__91__lp__93__,"phosphatidylcholine (1-16:1, 2-18:1) [lipid particle]",C42H80NO8P,lp,0.9341692789968652,Core (≥90%),NA,NA
+M_s_3703__91__lp__93__,"phosphatidylcholine (1-18:0, 2-18:1) [lipid particle]",C44H86NO7P,lp,0.9341692789968652,Core (≥90%),NA,NA
+M_s_3704__91__lp__93__,"phosphatidylcholine (1-18:1, 2-18:1) [lipid particle]",C44H84NO7P,lp,0.9341692789968652,Core (≥90%),NA,NA
+M_s_3705__91__lp__93__,"phosphatidylethanolamine (1-16:0, 2-16:1) [lipid particle]",C37H72NO8P,lp,0.9341692789968652,Core (≥90%),NA,NA
+M_s_3706__91__lp__93__,"phosphatidylethanolamine (1-16:1, 2-16:1) [lipid particle]",C37H70NO8P,lp,0.9341692789968652,Core (≥90%),NA,NA
+M_s_3708__91__lp__93__,"phosphatidylethanolamine (1-18:1, 2-16:1) [lipid particle]",C39H74NO8P,lp,0.9341692789968652,Core (≥90%),NA,NA
+M_s_3201__91__erm__93__,"phosphatidyl-N,N-dimethylethanolamine (1-18:0, 2-16:1) [endoplasmic reticulum membrane]",C41H80NO8P,erm,0.9310344827586208,Core (≥90%),NA,NA
+M_s_3186__91__erm__93__,"phosphatidyl-N-methylethanolamine (1-16:1, 2-16:1) [endoplasmic reticulum membrane]",C38H72NO8P,erm,0.927899686520376,Core (≥90%),NA,NA
+M_s_3192__91__erm__93__,"phosphatidyl-N-methylethanolamine (1-16:0, 2-18:1) [endoplasmic reticulum membrane]",C40H78NO8P,erm,0.927899686520376,Core (≥90%),NA,NA
+M_s_3200__91__erm__93__,"phosphatidyl-N,N-dimethylethanolamine (1-16:1, 2-16:1) [endoplasmic reticulum membrane]",C39H74NO8P,erm,0.927899686520376,Core (≥90%),NA,NA
+M_s_3203__91__erm__93__,"phosphatidyl-N,N-dimethylethanolamine (1-16:0, 2-18:1) [endoplasmic reticulum membrane]",C41H80NO8P,erm,0.927899686520376,Core (≥90%),NA,NA
+M_s_3208__91__erm__93__,"phosphatidylcholine (1-16:1, 2-16:1) [endoplasmic reticulum membrane]",C40H76NO8P,erm,0.9247648902821316,Core (≥90%),NA,NA
+M_s_3210__91__erm__93__,"phosphatidylcholine (1-18:1, 2-16:1) [endoplasmic reticulum membrane]",C42H80NO7P,erm,0.9247648902821316,Core (≥90%),NA,NA
+M_s_3211__91__erm__93__,"phosphatidylcholine (1-16:0, 2-18:1) [endoplasmic reticulum membrane]",C42H82NO8P,erm,0.9247648902821316,Core (≥90%),NA,NA
+M_s_3212__91__erm__93__,"phosphatidylcholine (1-16:1, 2-18:1) [endoplasmic reticulum membrane]",C42H80NO8P,erm,0.9247648902821316,Core (≥90%),NA,NA
+M_s_3428__91__erm__93__,1-acylglycerophosphocholine (16:0) [endoplasmic reticulum membrane],C24H51NO7P,erm,0.9247648902821316,Core (≥90%),NA,NA
+M_s_3429__91__erm__93__,1-acylglycerophosphocholine (16:1) [endoplasmic reticulum membrane],C24H49NO7P,erm,0.9247648902821316,Core (≥90%),NA,NA
+M_s_3431__91__erm__93__,1-acylglycerophosphocholine (18:1) [endoplasmic reticulum membrane],C26H53NO7P,erm,0.9247648902821316,Core (≥90%),NA,NA
+M_s_0632__91__m__93__,dihydroxyacetone phosphate [mitochondrion],C3H5O6P,m,0.9216300940438872,Core (≥90%),NA,NA
+M_s_0773__91__c__93__,glycogen [cytoplasm],C6H12O6,c,0.9122257053291536,Core (≥90%),NA,NA
+M_s_3164__91__vm__93__,H+ [vacuolar membrane],H,vm,0.9122257053291536,Core (≥90%),NA,NA
+M_s_3173__91__vm__93__,"phosphatidyl-L-serine (1-16:0, 2-18:1) [vacuolar membrane]",C40H76NO10P,vm,0.896551724137931,Common (50-90%),NA,NA
+M_s_3146__91__gm__93__,H+ [Golgi membrane],H,gm,0.890282131661442,Common (50-90%),NA,NA
+M_s_3141__91__mm__93__,"phosphatidyl-L-serine (1-18:0, 2-18:1) [mitochondrial membrane]",C42H80NO10P,mm,0.8871473354231975,Common (50-90%),NA,NA
+M_s_3047__91__lp__93__,"diglyceride (1-16:1, 2-16:1) [lipid particle]",C35H64O5,lp,0.8840125391849529,Common (50-90%),NA,NA
+M_s_3384__91__n__93__,"1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1) [nucleus]",C43H81O13P,n,0.8714733542319749,Common (50-90%),NA,NA
+M_s_1235__91__c__93__,O-acetylcarnitine [cytoplasm],C9H17NO4,c,0.8683385579937304,Common (50-90%),NA,NA
+M_s_2783__91__erm__93__,H+ [endoplasmic reticulum membrane],H,erm,0.8683385579937304,Common (50-90%),NA,NA
+M_s_3045__91__lp__93__,"diglyceride (1-16:0, 2-18:1) [lipid particle]",C37H70O5,lp,0.8557993730407524,Common (50-90%),NA,NA
+M_s_3053__91__lp__93__,"diglyceride (1-18:0, 2-18:1) [lipid particle]",C39H74O5,lp,0.8557993730407524,Common (50-90%),NA,NA
+M_s_3057__91__lp__93__,"diglyceride (1-18:1, 2-18:1) [lipid particle]",C39H72O5,lp,0.8557993730407524,Common (50-90%),NA,NA
+M_s_3043__91__lp__93__,"diglyceride (1-16:0, 2-16:1) [lipid particle]",C35H68O5,lp,0.8526645768025078,Common (50-90%),NA,NA
+M_s_3049__91__lp__93__,"diglyceride (1-16:1, 2-18:1) [lipid particle]",C37H68O5,lp,0.8526645768025078,Common (50-90%),NA,NA
+M_s_3055__91__lp__93__,"diglyceride (1-18:1, 2-16:1) [lipid particle]",C37H68O5,lp,0.8526645768025078,Common (50-90%),NA,NA
+M_s_3340__91__vm__93__,"1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1) [vacuolar membrane]",C41H77O13P,vm,0.8526645768025078,Common (50-90%),NA,NA
+M_s_3344__91__vm__93__,"1-phosphatidyl-1D-myo-inositol (1-16:1, 2-16:1) [vacuolar membrane]",C41H75O13P,vm,0.8526645768025078,Common (50-90%),NA,NA
+M_s_3346__91__vm__93__,"1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1) [vacuolar membrane]",C43H81O13P,vm,0.8526645768025078,Common (50-90%),NA,NA
+M_s_3348__91__vm__93__,"1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1) [vacuolar membrane]",C43H79O13P,vm,0.8526645768025078,Common (50-90%),NA,NA
+M_s_3350__91__vm__93__,"1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1) [vacuolar membrane]",C43H81O13P,vm,0.8526645768025078,Common (50-90%),NA,NA
+M_s_3352__91__vm__93__,"1-phosphatidyl-1D-myo-inositol (1-16:1, 2-18:1) [vacuolar membrane]",C43H79O13P,vm,0.8526645768025078,Common (50-90%),NA,NA
+M_s_3354__91__vm__93__,"1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1) [vacuolar membrane]",C45H85O13P,vm,0.8526645768025078,Common (50-90%),NA,NA
+M_s_3356__91__vm__93__,"1-phosphatidyl-1D-myo-inositol (1-18:1, 2-18:1) [vacuolar membrane]",C45H83O13P,vm,0.8526645768025078,Common (50-90%),NA,NA
+M_s_3661__91__lp__93__,episteryl oleate [lipid particle],C46H78O2,lp,0.8463949843260188,Common (50-90%),NA,NA
+M_s_3664__91__lp__93__,lanosteryl palmitoleate [lipid particle],C46H78O2,lp,0.8463949843260188,Common (50-90%),NA,NA
+M_s_3667__91__lp__93__,zymosteryl palmitoleate [lipid particle],C43H72O2,lp,0.8463949843260188,Common (50-90%),NA,NA
+M_s_0631__91__lp__93__,dihydroxyacetone phosphate [lipid particle],C3H5O6P,lp,0.7774294670846394,Common (50-90%),NA,NA
+M_s_0769__91__lp__93__,glycerol 3-phosphate [lipid particle],C3H7O6P,lp,0.7774294670846394,Common (50-90%),NA,NA
+M_s_2934__91__erm__93__,glycerol 3-phosphate [endoplasmic reticulum membrane],C3H7O6P,erm,0.7774294670846394,Common (50-90%),NA,NA
+M_s_2939__91__erm__93__,dihydroxyacetone phosphate [endoplasmic reticulum membrane],C3H5O6P,erm,0.7774294670846394,Common (50-90%),NA,NA
+M_s_0800__91__n__93__,H+ [nucleus],H,n,0.7210031347962382,Common (50-90%),NA,NA
+M_s_3366__91__gm__93__,"1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1) [Golgi membrane]",C43H79O13P,gm,0.670846394984326,Common (50-90%),NA,NA
+M_s_3362__91__gm__93__,"1-phosphatidyl-1D-myo-inositol (1-16:1, 2-16:1) [Golgi membrane]",C41H75O13P,gm,0.664576802507837,Common (50-90%),NA,NA
+M_s_0021__91__c__93__,(R)-carnitine [cytoplasm],C7H15NO3,c,0.64576802507837,Common (50-90%),NA,NA
+M_s_1237__91__p__93__,O-acetylcarnitine [peroxisome],C9H17NO4,p,0.64576802507837,Common (50-90%),NA,NA
+M_s_0801__91__p__93__,H+ [peroxisome],H,p,0.5956112852664577,Common (50-90%),NA,NA
+M_s_0927__91__c__93__,isoamyl acetate [cytoplasm],C7H14O2,c,0.20689655172413793,Variable (<50%),NA,NA
+M_s_0935__91__c__93__,isobutyl acetate [cytoplasm],C6H12O2,c,0.20689655172413793,Variable (<50%),NA,NA
+M_s_0952__91__c__93__,L-2-amino-3-oxobutanoate [cytoplasm],C4H7NO3,c,0.02507836990595611,Variable (<50%),NA,NA
+M_s_2954__91__erm__93__,"phosphatidate (1-16:0, 2-16:1) [endoplasmic reticulum membrane]",C35H65O8P,erm,0.0219435736677116,Variable (<50%),NA,NA
+M_s_2955__91__erm__93__,"phosphatidate (1-16:0, 2-18:1) [endoplasmic reticulum membrane]",C37H71O8P,erm,0.0219435736677116,Variable (<50%),NA,NA
+M_s_2956__91__erm__93__,"phosphatidate (1-16:1, 2-16:1) [endoplasmic reticulum membrane]",C35H65O8P,erm,0.0219435736677116,Variable (<50%),NA,NA
+M_s_2957__91__erm__93__,"phosphatidate (1-16:1, 2-18:1) [endoplasmic reticulum membrane]",C37H69O8P,erm,0.0219435736677116,Variable (<50%),NA,NA
+M_s_2958__91__erm__93__,"phosphatidate (1-18:0, 2-16:1) [endoplasmic reticulum membrane]",C37H71O8P,erm,0.0219435736677116,Variable (<50%),NA,NA
+M_s_2959__91__erm__93__,"phosphatidate (1-18:0, 2-18:1) [endoplasmic reticulum membrane]",C39H75O8P,erm,0.0219435736677116,Variable (<50%),NA,NA
+M_s_2960__91__erm__93__,"phosphatidate (1-18:1, 2-16:1) [endoplasmic reticulum membrane]",C37H69O8P,erm,0.0219435736677116,Variable (<50%),NA,NA
+M_s_2961__91__erm__93__,"phosphatidate (1-18:1, 2-18:1) [endoplasmic reticulum membrane]",C39H73O8P,erm,0.0219435736677116,Variable (<50%),NA,NA
+M_s_1268__91__m__93__,ornithine [mitochondrion],C5H13N2O2,m,0.01880877742946708,Variable (<50%),NA,NA
+M_s_0232__91__c__93__,3-methyl-2-oxobutanoate [cytoplasm],C5H7O3,c,0.01567398119122257,Variable (<50%),NA,NA
+M_s_0291__91__c__93__,4-methyl-2-oxopentanoate [cytoplasm],C6H9O3,c,0.01567398119122257,Variable (<50%),NA,NA
+M_s_0855__91__c__93__,indole-3-pyruvate [cytoplasm],C11H8NO3,c,0.01567398119122257,Variable (<50%),NA,NA
+M_s_1399__91__c__93__,pyruvate [cytoplasm],C3H3O3,c,0.01567398119122257,Variable (<50%),NA,NA
+M_s_3368__91__gm__93__,"1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1) [Golgi membrane]",C43H81O13P,gm,0.01567398119122257,Variable (<50%),NA,NA
+M_s_3374__91__gm__93__,"1-phosphatidyl-1D-myo-inositol (1-18:1, 2-18:1) [Golgi membrane]",C45H83O13P,gm,0.01567398119122257,Variable (<50%),NA,NA
+M_s_2967__91__erm__93__,"diglyceride (1-16:0, 2-16:1) [endoplasmic reticulum membrane]",C35H68O5,erm,0.01253918495297805,Variable (<50%),NA,NA
+M_s_2969__91__erm__93__,"diglyceride (1-16:1, 2-16:1) [endoplasmic reticulum membrane]",C35H64O5,erm,0.01253918495297805,Variable (<50%),NA,NA
+M_s_2970__91__erm__93__,"diglyceride (1-16:1, 2-18:1) [endoplasmic reticulum membrane]",C37H68O5,erm,0.01253918495297805,Variable (<50%),NA,NA
+M_s_2971__91__erm__93__,"diglyceride (1-18:0, 2-16:1) [endoplasmic reticulum membrane]",C37H70O5,erm,0.01253918495297805,Variable (<50%),NA,NA
+M_s_2972__91__erm__93__,"diglyceride (1-18:0, 2-18:1) [endoplasmic reticulum membrane]",C39H74O5,erm,0.01253918495297805,Variable (<50%),NA,NA
+M_s_2973__91__erm__93__,"diglyceride (1-18:1, 2-16:1) [endoplasmic reticulum membrane]",C37H68O5,erm,0.01253918495297805,Variable (<50%),NA,NA
+M_s_3051__91__lp__93__,"diglyceride (1-18:0, 2-16:1) [lipid particle]",C37H70O5,lp,0.01253918495297805,Variable (<50%),NA,NA
+M_s_4183__91__c__93__,propionyl-CoA [cytoplasm],C24H36N7O17P3S,c,0.01253918495297805,Variable (<50%),NA,NA
+M_s_3358__91__gm__93__,"1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1) [Golgi membrane]",C41H77O13P,gm,0.00940438871473354,Variable (<50%),NA,NA
+M_s_3372__91__gm__93__,"1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1) [Golgi membrane]",C45H85O13P,gm,0.00940438871473354,Variable (<50%),NA,NA
+M_s_0476__91__g__93__,ceramide-1 (C24) [Golgi],C42H85NO3,g,0.00626959247648902,Variable (<50%),NA,NA
+M_s_0479__91__g__93__,ceramide-1 (C26) [Golgi],C44H89NO3,g,0.00626959247648902,Variable (<50%),NA,NA
+M_s_0482__91__g__93__,ceramide-2 (C24) [Golgi],C42H85NO4,g,0.00626959247648902,Variable (<50%),NA,NA
+M_s_0485__91__g__93__,ceramide-2 (C26) [Golgi],C44H89NO4,g,0.00626959247648902,Variable (<50%),NA,NA
+M_s_0488__91__g__93__,ceramide-2' (C24) [Golgi],C42H85NO4,g,0.00626959247648902,Variable (<50%),NA,NA
+M_s_0491__91__g__93__,ceramide-2' (C26) [Golgi],C44H89NO4,g,0.00626959247648902,Variable (<50%),NA,NA
+M_s_0494__91__g__93__,ceramide-3 (C24) [Golgi],C42H85NO5,g,0.00626959247648902,Variable (<50%),NA,NA
+M_s_0497__91__g__93__,ceramide-3 (C26) [Golgi],C44H89NO5,g,0.00626959247648902,Variable (<50%),NA,NA
+M_s_0500__91__g__93__,ceramide-4 (C24) [Golgi],C42H85NO6,g,0.00626959247648902,Variable (<50%),NA,NA
+M_s_0503__91__g__93__,ceramide-4 (C26) [Golgi],C44H89NO6,g,0.00626959247648902,Variable (<50%),NA,NA
+M_s_0991__91__c__93__,L-glutamate [cytoplasm],C5H8NO4,c,0.00626959247648902,Variable (<50%),NA,NA
+M_s_3364__91__gm__93__,"1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1) [Golgi membrane]",C43H81O13P,gm,0.00626959247648902,Variable (<50%),NA,NA
+M_s_3370__91__gm__93__,"1-phosphatidyl-1D-myo-inositol (1-16:1, 2-18:1) [Golgi membrane]",C43H79O13P,gm,0.00313479623824451,Variable (<50%),NA,NA
