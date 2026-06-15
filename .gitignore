@@ -8,7 +8,8 @@ figures/*.pdf
 figures/*.svg
 figures/*.png
 figures/supplementary/
-supplementary/Table_S6.xlsx
+supplementary/Table_S4.xlsx
+supplementary/Table1_pgls.xlsx
 
 # R
 .Rhistory

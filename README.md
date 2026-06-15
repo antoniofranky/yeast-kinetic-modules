@@ -96,13 +96,13 @@ Outputs are written to `figures/`.
 ### Step 5 — Build supplementary tables
 
 ```r
-Rscript scripts/tables/tableS2_setup_data_prep.R
-Rscript scripts/tables/tableS2_model_selection.R        # Table S2
-Rscript scripts/tables/tableS5_acr_metabolites.R        # Table S5 (requires Saccharomyces_cerevisiae.xml)
-python  scripts/tables/tableS6_pgls_correlations.py     # Table S4 (PGLS)
+Rscript scripts/tables/tableS2_acr_metabolites.R        # Table S2 (requires Saccharomyces_cerevisiae.xml)
+Rscript scripts/tables/tableS4_setup_data_prep.R
+Rscript scripts/tables/tableS4_model_selection.R        # Table S4
+python  scripts/tables/table1_pgls_results.py           # Table 1 (PGLS source data)
 ```
 
-`fig02_phenotype_correlations.R` must be run before `tableS6_pgls_correlations.py` (it writes the PGLS CSV files to `results/pgls/`).
+`fig02_phenotype_correlations.R` must be run before `table1_pgls_results.py` (it writes the PGLS CSV files to `results/pgls/`).
 
 ---
 

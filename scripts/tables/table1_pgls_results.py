@@ -1,4 +1,4 @@
-"""Build Table_S6.xlsx: PGLS phenotype correlations (direct + joint).
+"""Build PGLS phenotype correlations table (source data for Table 1 in manuscript).
 Network properties are ln-transformed; biomass yield and substrate count
 are on the linear scale. Signed Pearson r = sign(slope) * sqrt(R^2)."""
 import csv
@@ -9,7 +9,7 @@ from openpyxl.styles import Font, Alignment, PatternFill
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CSV_DIR   = str(REPO_ROOT / "results" / "pgls")
-OUT       = str(REPO_ROOT / "supplementary" / "Table_S6.xlsx")
+OUT       = str(REPO_ROOT / "supplementary" / "Table1_pgls.xlsx")
 
 wb = Workbook()
 
@@ -18,7 +18,7 @@ wb = Workbook()
 # ---------------------------------------------------------------------------
 ws = wb.active
 ws.title = "Legend"
-ws["A1"] = "Table S6: PGLS phenotype correlations"
+ws["A1"] = "Table 1: PGLS phenotype correlations"
 ws["A1"].font = Font(bold=True, size=13)
 ws["A3"] = (
     "Phylogenetic Generalized Least Squares (PGLS) regression results for the "
