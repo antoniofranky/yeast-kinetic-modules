@@ -44,13 +44,14 @@ figures/           Output directory for generated figures (empty; created on fir
 
 ### Step 0 — Download large data from Zenodo
 
-Download the following archives from **[Zenodo DOI to be added]** and extract as described:
+`data/prpd_models/no_split.tar.gz` (preprocessed SBML models without elementary-step splitting) ships directly in this repo — extract it to `data/prpd_models/no_split/`.
+
+Download the rest from **[Zenodo DOI to be added]** and extract as described:
 
 | Archive | Contents | Extract to |
 |---|---|---|
 | `prpd_models_random_0.tar.gz` | 332 preprocessed SBML models (main analysis) | `data/prpd_models/random_0/` |
 | `prpd_models_variants.tar.gz` | Models for 10 seeds × 5 binding fractions | `data/prpd_models/variants/` |
-| `prpd_models_no_split.tar.gz` | Models without elementary-step splitting | `data/prpd_models/no_split/` |
 | `jld2_random_0.tar.gz` | Kinetic results (JLD2, main analysis) | `data/jld2/random_0/` |
 | `jld2_seeds_42-51.tar.gz` | Kinetic results for enzyme mechanism variants | `data/jld2/seeds/` |
 

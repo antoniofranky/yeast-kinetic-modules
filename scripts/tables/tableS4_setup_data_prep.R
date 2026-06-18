@@ -50,6 +50,37 @@ cat(rep("=", 80), "\n\n", sep = "")
 cat("Loading metabolic network data...\n")
 df_raw <- read_csv(file.path(DATA_DIR, "annotations/cocoa_results_merged.csv"), show_col_types = FALSE)
 
+# ============================================================
+# OVERRIDE: cocoa_results_merged.csv holds no-split (original GEM)
+# balanced/concordant/complex counts. The manuscript's evolutionary
+# model selection (Table S4) uses the split-model (random_0) values
+# instead, averaged per species across its HPC job replicates.
+# ============================================================
+cat("Loading random_0 balanced/concordant values...\n")
+df_r0 <- read_csv(file.path(RESULTS_DIR, "kinetic/resource_analysis.csv"), show_col_types = FALSE) %>%
+  filter(variant == "random_0", job_status == "SUCCESS" | (job_status == "TIMEOUT" & !is.na(balanced_complexes))) %>%
+  group_by(model) %>%
+  summarise(
+    n_balanced_complexes_r0 = mean(balanced_complexes, na.rm = TRUE),
+    n_concordant_total_r0 = mean(concordant_pairs, na.rm = TRUE),
+    n_complexes_r0 = mean(n_complexes, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+n_before <- nrow(df_raw)
+df_raw <- df_raw %>%
+  inner_join(df_r0, by = c("model_name" = "model")) %>%
+  mutate(
+    n_balanced_complexes = n_balanced_complexes_r0,
+    n_concordant_total   = n_concordant_total_r0,
+    n_complexes           = n_complexes_r0
+  ) %>%
+  select(-n_balanced_complexes_r0, -n_concordant_total_r0, -n_complexes_r0)
+
+cat(sprintf("  random_0 values applied for %d species\n", nrow(df_raw)))
+cat(sprintf("  %d species dropped (no random_0 result)\n", n_before - nrow(df_raw)))
+# ============================================================
+
 cat("  Rows:", nrow(df_raw), "\n")
 cat("  Columns:", ncol(df_raw), "\n")
 cat("  Variables:", paste(names(df_raw), collapse = ", "), "\n\n")

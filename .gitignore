@@ -1,6 +1,7 @@
 # Large data — download from Zenodo
 data/jld2/
-data/prpd_models/
+data/prpd_models/*
+!data/prpd_models/no_split.tar.gz
 data/Saccharomyces_cerevisiae.xml
 
 # Generated outputs
